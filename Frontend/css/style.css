@@ -6,40 +6,46 @@ body{
 
 /* navbar settings */
 
-.bg-light
-{
-    background-color: pink  !important;
+.menu-background{
+  
 }
 
-.navbar {
-    min-height: 150px;
-    
-  }
-  
-.navbar-brand {
-    
-    padding: 0 15px;
-    height: 80px;
-    font-size: 4rem !important; 
-       
+#brand{
+  margin-top: 2.1rem;
 }
+.brand{
+  font-size: 3rem !important;
+  pointer-events: none;
+  margin-left:5rem;
+}
+
+
+.menu{
+  list-style: none;
+
+}
+.menu li{
+  float: left;
+  font-size: 1.1rem;
+  margin: 4rem 1.5rem 0rem 10rem;
+  padding: 0.5rem;
   
-  .navbar-collapse {
-    /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
-    padding: 9px 10px !important;
+}
+@media only screen and (max-width:1080px) and (max-height:2400px){
+  .brand{
+    font-size: 5rem !important;
+
   }
-  .collapse
-  {
-      color: red !important;
-      padding-top: 2rem;
-      font-size: 2rem !important;
+  #brand{
+    margin-left: 10rem;
   }
-  @media (min-width: 768px) {
-    .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 26.5px;
-      padding-bottom: 26.5px;
-      line-height: 27px;
-      color: #192841 !important;
-    }
+  .menu{
+    margin-top: -1rem;
+   
+  }
+  .menu li{
+    font-size: 2rem;
+    margin: 3rem 0px 0px 8rem;
+  }
+  
+}

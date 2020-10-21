@@ -6,7 +6,17 @@ body{
 
 /* navbar settings */
 
+.logo{
+  height: 0.5rem;
+  width: 0.5rem;
+}
 .menu-background{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 0.5rem 1rem #888888 ;
+  width:auto;
+  opacity: 0.8;
   
 }
 
@@ -34,6 +44,7 @@ body{
 @media only screen and (max-width:1080px) and (max-height:2400px){
   .brand{
     font-size: 5rem !important;
+    margin-left: 5.5rem;
 
   }
   #brand{
@@ -48,4 +59,40 @@ body{
     margin: 3rem 0px 0px 8rem;
   }
   
+}
+
+/* intro section */
+.intro{
+    background-image: url(../images/intro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50rem;
+}
+@media only screen and (max-width:1080px) and (max-height:2400px){
+  .intro{
+    background-image: url(../images/introMob.jpg);
+    height: 100rem;
+  }
+}
+
+.intro-content{
+  color: white;
+  height: 28rem;
+  width: 48rem;
+  position: absolute;
+  top: 10rem;
+  left: 18.5rem;
+  background-color: rgba(0,0,0,0.56);
+}
+
+@media only screen and (max-width:1080px) and (max-height:2400px){
+  
+  .intro-content{
+    height: 70rem;
+
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+    font-size: 3rem;
+  }
 }

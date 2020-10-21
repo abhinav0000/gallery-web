@@ -63,14 +63,14 @@ body{
 
 /* intro section */
 .intro{
-    background-image: url(/images/intro.jpg);
+    background-image: url(../images/intro.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 50rem;
 }
 @media only screen and (max-width:1080px) and (max-height:2400px){
   .intro{
-    background-image: url(/images/introMob.jpg);
+    background-image: url(../images/introMob.jpg);
     height: 100rem;
   }
 }

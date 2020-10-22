@@ -41,7 +41,13 @@ body{
   padding: 0.5rem;
   
 }
-@media only screen and (max-width:1080px) and (max-height:2400px){
+
+@media only screen and (max-width:1280px){
+  .menu li{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width:1080px){
   .brand{
     font-size: 5rem !important;
     margin-left: 5.5rem;
@@ -68,7 +74,9 @@ body{
     background-size: contain;
     height: 50rem;
 }
-@media only screen and (max-width:1080px) and (max-height:2400px){
+
+
+@media only screen and (max-width:1080px){
   .intro{
     background-image: url(../images/introMob.jpg);
     height: 100rem;
@@ -81,11 +89,18 @@ body{
   width: 48rem;
   position: absolute;
   top: 10rem;
-  left: 18.5rem;
+  left: 19rem;
   background-color: rgba(0,0,0,0.56);
 }
 
-@media only screen and (max-width:1080px) and (max-height:2400px){
+@media only screen and (max-width:1280px){
+  .intro-content{
+    position: relative;
+    left: 15rem;
+  }
+}
+
+@media only screen and (max-width:1080px){
   
   .intro-content{
     height: 70rem;
@@ -94,5 +109,52 @@ body{
     top: 10rem;
     left: 7rem;
     font-size: 3rem;
+  }
+}
+.intro-text{
+  color: white;
+  
+
+}
+.intro-text .p1{
+  text-align: center;
+  font-size: 8rem;
+  opacity: 0.8;
+  font-family: 'Dancing Script', cursive;
+  
+}
+.intro-text .p2{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: -3.5rem;
+  opacity: 0.8;
+  
+}
+.intro-text .p3{
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.4;
+}
+@media only screen and (max-width:1080px){
+  .intro-text .p1{
+    font-size: 10rem;
+    opacity: 0.7;
+  }
+  .intro-text .p2{
+    font-size: 3rem;
+    opacity: 0.7;
+    position: relative;
+    top: -8rem;
+  }
+  .intro-text .p3{
+    font-size: 1.5rem;
+    opacity: 0.5;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: 7.8rem;
   }
 }

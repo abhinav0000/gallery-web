@@ -42,6 +42,7 @@ body{
   
 }
 
+
 @media only screen and (max-width:1280px){
   .menu li{
     font-size: 1rem;
@@ -67,19 +68,22 @@ body{
   
 }
 
+
+
+
 /* intro section */
 .intro{
     background-image: url(../images/intro.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50rem;
+    height: 48rem;
 }
 
 
 @media only screen and (max-width:1080px){
   .intro{
     background-image: url(../images/introMob.jpg);
-    height: 100rem;
+    height: 93rem;
   }
 }
 
@@ -100,17 +104,7 @@ body{
   }
 }
 
-@media only screen and (max-width:1080px){
-  
-  .intro-content{
-    height: 70rem;
 
-    position: absolute;
-    top: 10rem;
-    left: 7rem;
-    font-size: 3rem;
-  }
-}
 .intro-text{
   color: white;
   
@@ -136,9 +130,30 @@ body{
   font-family: 'Caveat', cursive;
   text-align: center;
   font-size: 1rem;
+  position: relative;
+  top: 1rem;
   opacity: 0.4;
 }
+
+
+.btn-settings{
+  position: absolute;
+  left: 21rem;
+  top: 21rem;
+  font-family: 'Caveat', cursive;
+}
+
 @media only screen and (max-width:1080px){
+
+  .intro-content{
+    height: 70rem;
+
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+    font-size: 3rem;
+  }
+
   .intro-text .p1{
     font-size: 10rem;
     opacity: 0.7;
@@ -157,4 +172,15 @@ body{
     position: relative;
     top: 7.8rem;
   }
+
+  .btn-settings{
+    left: 15rem;
+    top: 38rem;
+    height: 5rem;
+    width: 18rem;
+    font-size: 3rem !important;
+  }
 }
+
+/* social media handles */
+

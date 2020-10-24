@@ -87,6 +87,7 @@ body{
   }
 }
 
+
 .intro-content{
   color: white;
   height: 28rem;
@@ -103,7 +104,14 @@ body{
     left: 15rem;
   }
 }
-
+@media only screen and (min-width:1359px){
+  .intro{
+    background-size: 110%;
+  }
+  .intro-content{
+    padding-left: ;
+  }
+}
 
 .intro-text{
   color: white;

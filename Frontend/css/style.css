@@ -37,15 +37,16 @@ body{
 .menu li{
   float: left;
   font-size: 1.1rem;
-  margin: 4rem 1.5rem 0rem 10rem;
+  margin: 4rem 1.5rem 0rem 5rem;
   padding: 0.5rem;
   
 }
 
 
-@media only screen and (max-width:1280px){
+@media only screen and (min-width:1081px) (max-width:1280px){
   .menu li{
     font-size: 1rem;
+    margin: 4rem 1rem 0rem 10rem;
   }
 }
 @media only screen and (max-width:1080px){
@@ -90,11 +91,11 @@ body{
 
 .intro-content{
   color: white;
-  height: 28rem;
+  height: 25rem;
   width: 48rem;
   position: absolute;
   top: 10rem;
-  left: 19rem;
+  left: 20rem;
   background-color: rgba(0,0,0,0.56);
 }
 
@@ -102,6 +103,7 @@ body{
   .intro-content{
     position: relative;
     left: 15rem;
+    top: 4rem;
   }
 }
 @media only screen and (min-width:1359px){
@@ -139,7 +141,7 @@ body{
   text-align: center;
   font-size: 1rem;
   position: relative;
-  top: 1rem;
+  top: -1.8rem;
   opacity: 0.4;
 }
 
@@ -147,7 +149,7 @@ body{
 .btn-settings{
   position: absolute;
   left: 21rem;
-  top: 21rem;
+  top: 20rem;
   font-family: 'Caveat', cursive;
 }
 

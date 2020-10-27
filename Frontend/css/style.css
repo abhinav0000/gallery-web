@@ -213,3 +213,7 @@ body{
 .column{
   float: left;
 }
+
+.icon:hover{
+  color: rgba(0,0,0,0.3);
+}

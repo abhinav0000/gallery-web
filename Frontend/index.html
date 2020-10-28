@@ -6,7 +6,7 @@
     <!-- favicon -->
     <link rel="icon" href="./images/logo.ico" type="image/x-icon"/>
     <!-- css file -->
-
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/style.css"/>
 
     <!-- bootstrap -->
@@ -107,6 +107,28 @@ do give your valuable suggestions</p>
 
 
     <!-- picture gallery -->
+  <div class="column col-lg-4">
+    <img id="myImg" src="./images/img1.jpg" class="img-thumbnail img-fluid" alt="abhinav">
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  
+  </div>
+
+
+
+
+  <div class="column col-lg-4">
+    <img src="./images/intro.jpg" class="img-thumbnail img-fluid" alt="Responsive image">
+  </div>
+
+  <div class="column col-lg-4">
+    <img src="./images/intro.jpg" class="img-thumbnail img-fluid" alt="Responsive image">
+  </div>
 
 
     <!-- bootstrap JS -->
@@ -121,6 +143,10 @@ do give your valuable suggestions</p>
       crossorigin="anonymous"
     ></script>    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- My JS files -->
        <script src="./js/index.js"></script>
+       <script src="./js/modal.js"></script>
+
+
   </body>
 </html>

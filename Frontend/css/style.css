@@ -78,7 +78,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     height: 38rem;
-    border: 2px solid red;
+
 }
 
 
@@ -166,7 +166,11 @@ body{
   top: 20rem;
   font-family: 'Caveat', cursive;
 }
+.btn-settings a{
+  color: black;
 
+}
+  
 @media only screen and (max-width:1080px){
 
   .intro-content{
@@ -214,6 +218,10 @@ body{
 
 .icon:hover{
   color: rgba(0,0,0,0.3);
+}
+
+.social_media{
+  margin: 0 0 1rem 0;
 }
 
 /* image gallery */

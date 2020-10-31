@@ -1,0 +1,21 @@
+*{
+    color:#ddd;
+
+}
+body{
+    background: #111;
+}
+
+.dark{
+    position: relative;
+    left: 80rem;
+}
+@media only screen and (max-width:1080px){
+    .dark{
+        position: relative;
+        left: 19rem;
+    }
+}
+.column{
+    border: black;
+}
